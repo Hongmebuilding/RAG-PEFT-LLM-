@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# --- Virtual Environments ---
+venv/
+env/
+.venv/
+.env/
+
+# --- Jupyter Notebook ---
+.ipynb_checkpoints/
+# 위젯 상태나 output을 피하려면 (필요 시)
+*.nbconvert.ipynb
+# Binder/Colab metadata 정리용
+*.bak.ipynb
+
+# --- VSCode / IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Logs / Datasets / Cache ---
+*.log
+*.out
+*.tmp
+*.csv
+*.tsv
+*.dat
+*.pkl
+*.h5
+.DS_Store
+Thumbs.db
+.cache/
+__MACOSX/
+
+# --- Hugging Face / PyTorch / Checkpoints ---
+runs/
+wandb/
+outputs/
+*.ckpt
+*.pt
+*.pth
+*.bin
+
+# --- Environment / API keys ---
+.env
+*.json
+secrets/
+credentials/
+token/
